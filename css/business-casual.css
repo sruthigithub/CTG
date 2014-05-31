@@ -15,7 +15,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  font-size: 1.1em;
+  font-size: 1.2em;
   line-height: 1.4;
   color: #000;
 }
@@ -89,15 +89,21 @@ hr {
 
 .tab-container {
     margin-bottom: 20px;
-    padding: 30px 15px;
+    /*padding: 30px 15px;*/
 }
 
 .tab-box {
-  background: #ECEBE9;
-  padding: 20px;
-  margin-bottom: 20px;
+    background: #ECEBE9;
+    margin: 0 0 49px 0;
+    padding: 30px 29px 23px 30px;
+    border: none;
+    height:300px;
 }
 
+.tab-box h4 {
+    text-align: center;
+    color: #333333;
+}
 .intro-text {
   text-transform: uppercase;
   letter-spacing: 1px;

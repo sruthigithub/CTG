@@ -1,9 +1,11 @@
 body {
-  background: url(../img/bg.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  /*background: url(../img/bg.jpg) no-repeat center center fixed; */
+  /*-webkit-background-size: cover;*/
+  /*-moz-background-size: cover;*/
+  /*-o-background-size: cover;*/
+  /*background-size: cover;*/
+  background-color: #5A5551;
+  
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -13,8 +15,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  font-size: 1.25em;
-  line-height: 1.6;
+  font-size: 1.1em;
+  line-height: 1.4;
   color: #000;
 }
 
@@ -28,11 +30,32 @@ hr {
   display: none;
 }
 
+.navbar-default {
+    background: #2E2926;
+    color: #FFFFFF;
+}
 
-.navbar-brand {
+.navbar-default .navbar-brand {
+  color: #FFFFFF;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 900;
+}
+
+.navbar-default .navbar-brand:hover, 
+.navbar-default .navbar-brand:focus {
+    color: #FE8C1A;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav > li > a:hover, 
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a.active
+{
+    color: #FE8C1A;
 }
 
 .navbar-nav {
@@ -59,10 +82,20 @@ hr {
 }
 
 .box {
-  background: #fff;
-  background: rgba(255,255,255,0.9);
+  background: #ECEBE9;
   margin-bottom: 20px;
   padding: 30px 15px;
+}
+
+.tab-container {
+    margin-bottom: 20px;
+    padding: 30px 15px;
+}
+
+.tab-box {
+  background: #ECEBE9;
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
 .intro-text {
@@ -84,25 +117,30 @@ hr {
 }
 
 footer {
-  background: #fff;
-  background: rgba(255,255,255,0.9);
+  background: #5A5551;
 }
 
 footer p {
   margin: 0;
-  padding: 50px 0;
+  padding: 30px 0;
+  color: #FFFFFF;
+  font-size: 14px;
 }
 
 @media screen and (min-width: 768px) {
 
+.brand-wrapper {
+    background-color: #5A5551;
+}
+
 .brand {
   display: inherit;
   font-weight: 700;
-  font-size: 5em;
+  font-size: 2em;
   line-height: normal;
-  text-align: center;
+  text-align: left;
   margin: 0;
-  padding: 30px 0 10px;
+  padding: 30px 0 30px 10px;
   color: #fff;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
@@ -118,10 +156,10 @@ footer p {
 
 .address-bar {
   display: inherit;
-  text-align: center;
+  text-align: left;
   margin: 0;
-  padding: 0 0 40px;
-  font-size: 1.25em;
+  padding: 0 0 20px;
+  font-size: 1em;
   text-transform: uppercase;
   letter-spacing: 3px;
   font-weight: 400;
@@ -142,17 +180,18 @@ footer p {
 }
 
 .navbar-default {
-  background: #fff;
-  background: rgba(255,255,255,0.9);
+  background: #2E2926;
   border: none;
 }
 
 .nav>li>a {
   padding: 35px;
+  color: #ffffff;
 }
 
 .navbar-nav>li>a {
   line-height: normal;
+  color: #ffffff;
 }
 
 .navbar-nav {

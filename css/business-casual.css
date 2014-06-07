@@ -133,113 +133,124 @@ footer p {
   font-size: 14px;
 }
 
+.navbar {
+    margin-bottom: 0;
+}
+
+.img-responsive {
+    margin-bottom: 10px;
+}
+
 @media screen and (min-width: 768px) {
+    .img-responsive {
+        margin-bottom: 10px;
+    }
 
-.brand-wrapper {
-    background-color: #5A5551;
-}
-
-.brand {
-  display: inherit;
-  font-weight: 700;
-  font-size: 3em;
-  line-height: normal;
-  text-align: left;
-  margin: 0;
-  padding: 10px 0 10px 10px;
-  color: #fff;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-}
-
-.brand a,
-.brand a:focus,
-.brand a:active,
-.brand a:hover {
-    color: #FFFFFF;
-    text-decoration: none;
-}
-
-.top-divider {
-  margin-top: 0;
-}
-
-.img-left {
-  float: left;
-  margin-right: 25px;
-}
-
-.address-bar {
-  display: inherit;
-  text-align: left;
-  margin: 0;
-  padding: 0 0 20px;
-  font-size: 1em;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  font-weight: 400;
-  color: #fff;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-}
-
-.navbar {
-  border-radius: 0;
-}
-
-.navbar-header {
-  display: none;
-}
-
-.navbar {
-  min-height: 0;
-}
-
-.navbar-default {
-  background: #2E2926;
-  border: none;
-}
-
-.nav>li>a {
-  padding: 35px;
-  color: #ffffff;
-}
-
-.navbar-nav>li>a {
-  line-height: normal;
-  color: #ffffff;
-}
-
-.navbar-nav {
-  float: left;
-  display: table;
-  table-layout: fixed;
-  font-size: 1.25em;
-  padding-left: 0;
-}
-
-.services-img {
-    background: url(../img/bg.jpg) no-repeat center center;
-    height: 300px;
-}
-
-.services-img-alt {
-    background: url(../img/civil.jpg) no-repeat center center;
-    height: 300px;
-}
-
-.resources-info a {
-    display: block;
-}
-
-.resources-container {
-    background-color: #2E2926;
-}
-
-.logo {
-    height: 100px;
-    width: 100px;
-    display: inline;
-    margin-right: 10px;
-}
+    .brand-wrapper {
+        background-color: #5A5551;
+    }
+    
+    .brand {
+      display: inherit;
+      font-weight: 700;
+      font-size: 2em;
+      line-height: normal;
+      text-align: left;
+      margin: 0;
+      padding: 10px 0 10px 10px;
+      color: #fff;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    }
+    
+    .brand a,
+    .brand a:focus,
+    .brand a:active,
+    .brand a:hover {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    
+    .top-divider {
+      margin-top: 0;
+    }
+    
+    .img-left {
+      float: left;
+      margin-right: 25px;
+    }
+    
+    .address-bar {
+      display: inherit;
+      text-align: left;
+      margin: 0;
+      padding: 0 0 20px;
+      font-size: 1em;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      font-weight: 400;
+      color: #fff;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    }
+    
+    .navbar {
+      border-radius: 0;
+    }
+    
+    .navbar-header {
+      display: none;
+    }
+    
+    .navbar {
+      min-height: 0;
+    }
+    
+    .navbar-default {
+      background: #2E2926;
+      border: none;
+    }
+    
+    .nav>li>a {
+      padding: 20px;
+      color: #ffffff;
+    }
+    
+    .navbar-nav>li>a {
+      line-height: normal;
+      color: #ffffff;
+    }
+    
+    .navbar-nav {
+      float: left;
+      display: table;
+      table-layout: fixed;
+      font-size: 1em;
+      padding-left: 0;
+    }
+    
+    .services-img {
+        background: url(../img/bg.jpg) no-repeat center center;
+        height: 300px;
+    }
+    
+    .services-img-alt {
+        background: url(../img/civil.jpg) no-repeat center center;
+        height: 300px;
+    }
+    
+    .resources-info a {
+        display: block;
+    }
+    
+    .resources-container {
+        background-color: #2E2926;
+    }
+    
+    .logo {
+        height: 100px;
+        width: 100px;
+        display: inline;
+        margin-right: 10px;
+    }
 
 }
 
@@ -248,5 +259,25 @@ footer p {
         content: '';
         display: table;
         clear: both;
+    }
+    .brand {
+        font-size: 3em;
+    }
+    .nav>li>a {
+      padding: 35px;
+      color: #ffffff;
+    }
+    
+    .navbar-nav>li>a {
+      line-height: normal;
+      color: #ffffff;
+    }
+    
+    .navbar-nav {
+      float: left;
+      display: table;
+      table-layout: fixed;
+      font-size: 1.25em;
+      padding-left: 0;
     }
 }

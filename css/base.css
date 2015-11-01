@@ -1,5 +1,5 @@
 body {
-  background-color: #5A5551;
+  background-color: #EEEEEE;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -30,7 +30,6 @@ hr {
 }
 
 .navbar-default .navbar-brand {
-  color: #FFFFFF;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 900;
@@ -76,29 +75,28 @@ hr {
 }
 
 .box {
-  background: #ECEBE9;
   margin-bottom: 20px;
-  padding: 30px 15px;
+  padding-top: 20px;
 }
 
 .tab-container {
     margin-bottom: 20px;
-    /*padding: 30px 15px;*/
 }
 
 .tab-box {
     background: #ECEBE9;
-    margin: 0 0 49px 0;
     border: none;
-    height:300px;
+    height: 300px;
 }
 
 .tab-box h4 {
     text-align: left;
-    color: #333333;
+    color: #2E2926;
     background-color: #EA870E;
     width: 100%;
-    padding: 30px;
+    padding: 20px;
+    margin-top: 20px;
+    text-decoration: none;
 }
 
 .tab-box-image {
@@ -149,14 +147,11 @@ hr {
   margin: 0 auto 0;
 }
 
-footer {
-  background: #5A5551;
-}
-
 footer p {
   margin: 0;
   padding: 30px 0;
-  color: #FFFFFF;
+  color: #2E2926;
+  font-weight: bold;
   font-size: 14px;
 }
 
@@ -166,6 +161,7 @@ footer p {
 
 .img-responsive {
     margin-bottom: 10px;
+    width: 100%;
 }
 
 .services-img {
@@ -189,19 +185,29 @@ footer p {
   padding: 10px 5px;
 }
 
+.navbar-default .navbar-toggle {
+  border-color: #888888;
+}
+
+.tab-link,
+.tab-link:focus,
+.tab-link:hover {
+  text-decoration: none;
+  color: #2E2926;
+}
 @media screen and (min-width: 768px) {
     .img-responsive {
         margin-bottom: 10px;
     }
 
     .brand-wrapper {
-        background-color: #5A5551;
+        background-color: #EEEEEE;
     }
     
     .brand {
       display: inherit;
       font-weight: 700;
-      font-size: 2em;
+      font-size: 2.5em;
       line-height: normal;
       text-align: left;
       margin: 0;
@@ -214,8 +220,9 @@ footer p {
     .brand a:focus,
     .brand a:active,
     .brand a:hover {
-        color: #FFFFFF;
+        color: #2E2926;
         text-decoration: none;
+        text-transform: uppercase;
     }
     
     .top-divider {
@@ -280,15 +287,20 @@ footer p {
     }
     
     .logo {
-        height: 100px;
-        width: 100px;
+        height: 50px;
+        width: 50px;
         display: inline;
         margin-right: 10px;
+        vertical-align: bottom;
     }
 
 }
 
 @media screen and (min-width: 1200px) {
+    .container {
+      width: 95%;
+    }
+    
     .box:after {
         content: '';
         display: table;
@@ -298,7 +310,7 @@ footer p {
         font-size: 3em;
     }
     .nav>li>a {
-      padding: 35px;
+      padding: 20px;
       color: #ffffff;
     }
     

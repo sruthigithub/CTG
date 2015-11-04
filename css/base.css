@@ -173,8 +173,12 @@ footer p {
 }
 
 .service-container .row {
-  background: #ECEBE9;
+  background: #e4e3e0;
   margin-top: 20px;
+}
+
+.service-container .row:nth-child(even){
+  background: #dcdad7;
 }
 
 .services-content h2 {
@@ -195,6 +199,16 @@ footer p {
   text-decoration: none;
   color: #2E2926;
 }
+
+.logo-wrapper {
+  display: none;
+}
+
+.contact-number {
+  font-size: 0.5em;
+  padding: 15px;
+}
+
 @media screen and (min-width: 768px) {
     .img-responsive {
         margin-bottom: 10px;
@@ -207,7 +221,7 @@ footer p {
     .brand {
       display: inherit;
       font-weight: 700;
-      font-size: 2.5em;
+      font-size: 2em;
       line-height: normal;
       text-align: left;
       margin: 0;
@@ -265,7 +279,7 @@ footer p {
     }
     
     .nav>li>a {
-      padding: 20px;
+      padding: 9px 15px;
       color: #ffffff;
     }
     
@@ -287,11 +301,39 @@ footer p {
     }
     
     .logo {
-        height: 50px;
-        width: 50px;
-        display: inline;
-        margin-right: 10px;
-        vertical-align: bottom;
+        height: 102px;
+        width: 100px;
+        padding: 5px;
+    }
+    
+    .header-wrapper {
+      width: 100%;
+    }
+    
+    .logo-wrapper {
+      float: left;
+      background-color: #EEEEEE;
+      font-size: 0;
+      display: block;
+    }
+    
+    .logo-link {
+      display: block;
+    }
+    
+    .navigation-wrapper {
+      overflow: hidden;
+      vertical-align: top;
+    }
+    
+    .brand {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    
+    .navbar-collapse {
+      padding-left: 0;
+      float: right;
     }
 
 }
@@ -307,10 +349,10 @@ footer p {
         clear: both;
     }
     .brand {
-        font-size: 3em;
+        font-size: 2.45em;
     }
     .nav>li>a {
-      padding: 20px;
+      padding: 9px 15px;
       color: #ffffff;
     }
     

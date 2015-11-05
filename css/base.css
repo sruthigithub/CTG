@@ -13,7 +13,10 @@ p {
   line-height: 1.4;
   color: #000;
 }
-
+ul {
+  font-size: 16px;
+  padding-top: 5px;
+}
 hr {
   border-color: #999999;
   max-width: 400px;

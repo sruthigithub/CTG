@@ -4,7 +4,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  text-transform: uppercase;
+  text-transform: capitalize;
   letter-spacing: 3px;
   font-weight: 400;
 }
@@ -14,12 +14,9 @@ p {
   line-height: 1.4;
   color: #000;
 }
+
 ul {
   font-size: 16px;
-}
-hr {
-  border-color: #999999;
-  max-width: 400px;
 }
 
 .brand,
@@ -33,7 +30,7 @@ hr {
 }
 
 .navbar-default .navbar-brand {
-  text-transform: uppercase;
+  text-transform: capitalize;
   letter-spacing: 2px;
   font-weight: 900;
 }
@@ -55,7 +52,7 @@ hr {
 }
 
 .navbar-nav {
-  text-transform: uppercase;
+  text-transform: capitalize;
   letter-spacing: 3px;
   font-weight: 400;
 }
@@ -133,7 +130,7 @@ hr {
 }
 
 .intro-text {
-  text-transform: uppercase;
+  text-transform: capitalize;
   letter-spacing: 1px;
   font-size: 1.25em;
   font-weight: 400;
@@ -158,7 +155,6 @@ footer p {
 }
 
 .img-responsive {
-    margin-bottom: 10px;
     width: 100%;
 }
 
@@ -191,10 +187,17 @@ footer p {
   border-color: #888888;
 }
 
-.tab-link,
+.tab-link {
+  text-decoration: none;
+  color: #2E2926;
+  padding: 20px 20px 20px 20px;
+  display: block;
+}
+
 .tab-link:focus,
 .tab-link:hover {
   text-decoration: none;
+  background-color: #e4e3e0;
   color: #2E2926;
 }
 
@@ -228,8 +231,16 @@ footer {
   max-height: 200px;
 }
 
-.services section{
-  padding-top: 20px;
+.banner {
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+.margin-bottom-60 {
+  padding-bottom: 60px;
+}
+
+.services section {
   padding-bottom: 20px;
 }
 
@@ -241,15 +252,25 @@ footer {
   text-align: center;
 }
 
-.banner {
-  font-size: 20px;
-  vertical-align: middle;
+.section-headings {
+  text-align: center;
+  padding: 10px 0 40px 0;
+}
+
+section.additional-info {
+  background: #fff;
+  padding: 40px 30px 45px 30px;
+  box-shadow: 2px 2px 2px 1px rgba(128, 128, 128, 0.1);
+  margin: 0 0 10% 0;
+}
+
+hr.seperator {
+    height: 4px;
+    background-color: #FE8C1A;
+    width: 30%;
 }
 
 @media screen and (min-width: 768px) {
-    .img-responsive {
-        margin-bottom: 10px;
-    }
 
     .brand-wrapper {
         background-color: #EEEEEE;
@@ -273,7 +294,7 @@ footer {
     .brand a:hover {
         color: #2E2926;
         text-decoration: none;
-        text-transform: uppercase;
+        text-transform: capitalize;
     }
     
     .top-divider {
@@ -291,7 +312,7 @@ footer {
       margin: 0;
       padding: 0 0 20px;
       font-size: 1em;
-      text-transform: uppercase;
+      text-transform: capitalize;
       letter-spacing: 3px;
       font-weight: 400;
       color: #fff;

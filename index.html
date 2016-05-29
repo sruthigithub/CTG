@@ -10,7 +10,7 @@
     <title>CTG, INC.</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 
     <!-- Add custom CSS here -->
@@ -54,32 +54,25 @@
                         </li>
                         <li><a href="contact.html">Contact</a>
                         </li>
+
                     </ul>
                 </div>
             </div>
+
         </nav>
     </header>
-
-    <div class="container page-content-section">
-        <div class="row banner margin-bottom-60">
-            <div class="col-md-6">
-                <div class="img-stripe-border">
-                    <img class="img-responsive" src="img/civil.jpg" alt="">
-                </div>
-            </div>
-            <div class="col-md-6">
-                We are a full service design firm for Planning & Design, Architecture, Civil, MEP, Structural Engineering and Construction Administration.
-            </div>
-        </div>
-
-        <section class="margin-bottom-60">
+    <div class="margin-bottom-40">
+        <img class="banner hidden-xs hidden-sm" src="img/banner.jpg"/>
+    </div>
+    <div class="container">
+        <section>
             <div class="row services">
                 <div class="col-md-4">
-                    <div class="panel panel-default">
+                    <div class="panel panel-default margin-bottom-40">
                       <div class="panel-heading"><h4>Civil Engineering</h4></div>
                       <div class="panel-body">
                         <div class="img-stripe-border">
-                            <img class="img-responsive" src="img/civil.jpg" alt="">
+                            <img class="lazy img-responsive" data-original="img/civil.jpg" alt="" height="180">
                         </div>
                         <ul class="list-unstyled">
                             <li>Site Planning & Design</li>
@@ -97,11 +90,11 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="panel panel-default">
+                    <div class="panel panel-default margin-bottom-40">
                       <div class="panel-heading"><h4>Architecture</h4></div>
                       <div class="panel-body">
                         <div class="img-stripe-border">
-                            <img class="img-responsive" src="img/architecture.jpg" alt="">
+                            <img class="lazy img-responsive" data-original="img/architecture.jpg" alt="">
                         </div>
                         <ul class="list-unstyled">
                             <li>Site Planning & Design</li>
@@ -119,11 +112,11 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="panel panel-default">
+                    <div class="panel panel-default margin-bottom-40">
                       <div class="panel-heading"><h4>Platting</h4></div>
                       <div class="panel-body">
                         <div class="img-stripe-border">
-                            <img class="img-responsive" src="img/plat.jpg" alt="">
+                            <img class="lazy img-responsive" data-original="img/plat.jpg" alt="">
                         </div>
                         <ul class="list-unstyled">
                             <li>Site Planning & Design</li>
@@ -144,11 +137,11 @@
             
             <div class="row services">
                 <div class="col-md-4">
-                    <div class="panel panel-default">
+                    <div class="panel panel-default margin-bottom-40">
                       <div class="panel-heading"><h4>MEP</h4></div>
                       <div class="panel-body">
                         <div class="img-stripe-border">
-                            <img class="img-responsive" src="img/mep.jpg" alt="">
+                            <img class="lazy img-responsive" data-original="img/mep.jpg" alt="">
                         </div>
                         <ul class="list-unstyled">
                             <li>Site Planning & Design</li>
@@ -166,11 +159,11 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="panel panel-default">
+                    <div class="panel panel-default margin-bottom-40">
                       <div class="panel-heading"><h4>Structural</h4></div>
                       <div class="panel-body">
                         <div class="img-stripe-border">
-                            <img class="img-responsive" src="img/structural.jpg" alt="">
+                            <img class="lazy img-responsive" data-original="img/structural.jpg" alt="">
                         </div>
                         <ul class="list-unstyled">
                             <li>Foundation Design</li>
@@ -188,11 +181,11 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="panel panel-default">
+                    <div class="panel panel-default margin-bottom-40">
                       <div class="panel-heading"><h4>Permit Co-ordination</h4></div>
                       <div class="panel-body">
                         <div class="img-stripe-border">
-                            <img class="img-responsive" src="img/permit.jpg" alt="">
+                            <img class="lazy img-responsive" data-original="img/permit.jpg" alt="">
                         </div>
                         <ul class="list-unstyled">
                             <li>Site Planning & Design</li>
@@ -214,8 +207,8 @@
 
         <section class="margin-bottom-60">
             <div class="row">
-                <div class="col-md-9">
-                    <div class="panel panel-default">
+                <div class="col-md-8">
+                    <div class="panel panel-default margin-bottom-40">
                       <div class="panel-heading"><h4>Who We Are</h4></div>
                       <div class="panel-body">
                           <p>
@@ -232,23 +225,46 @@
                       </div>
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <div class="panel panel-default">
-                      <div class="panel-heading"><h4>Contact</h4></div>
-                      <div class="panel-body">
-                          <p>Primary Contact</p>
-                          <p>Madhavi Talluri, P.E.<br/>
-                             Principal
-                          </p>
-                          <p class="contact-information">
-                              <p class="phone"><i class="fa fa-phone" aria-hidden="true"></i> 713-903-6177</p>
-                              <p class="email"><i class="fa fa-envelope" aria-hidden="true"></i> info@texasctgroup.com</p>
-                              <p class="office-hours"><i class="fa fa-clock-o" aria-hidden="true"></i> 9:00 AM - 5:00 PM CST (M - F)</p> <br/>
-                              <p class="address"><i class="fa fa-location-arrow" aria-hidden="true"></i> Address <br/>400 COBIA DR, SUITE 1503 <br/>KATY, TX 77494</p>
-                              
-                          </p>
-                      </div>
-                    </div>
+                <div class="col-md-4">
+                    <table class="contact-details">
+                     <tbody>
+                         <tr>
+                             <td class="icon"><i class="fa fa-phone fa-2x" aria-hidden="true"></i></td>
+                             <td>713-903-6177</td>
+                         </tr>
+                     </tbody>
+                    </table>
+                    <table class="contact-details">
+                     <tbody>
+                         <tr>
+                             <td class="icon"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></td>
+                             <td>info@texasctgroup.com</td>
+                         </tr>
+                     </tbody>
+                    </table>
+                    <table class="contact-details">
+                     <tbody>
+                         <tr>
+                             <td class="icon"><i class="fa fa-clock-o fa-2x" aria-hidden="true"></i></td>
+                             <td>9:00 AM - 5:00 PM CST (M - F)</td>
+                         </tr>
+                     </tbody>
+                    </table>
+                    <table class="contact-details">
+                     <tbody>
+                         <tr>
+                             <td class="icon"><i class="fa fa-location-arrow fa-2x" aria-hidden="true"></i></td>
+                             <td>400 COBIA DR, SUITE 1503 <br/>KATY, TX 77494</td>
+                         </tr>
+                     </tbody>
+                    </table>
+                    <!--<p class="contact-information">-->
+                    <!--    <p class="phone"></p>-->
+                    <!--    <p class="email"> </p>-->
+                    <!--    <p class="office-hours"><i class="fa fa-clock-o" aria-hidden="true"></i> </p> <br/>-->
+                    <!--    <p class="address"><i class="fa fa-location-arrow" aria-hidden="true"></i> Address <br/>400 COBIA DR, SUITE 1503 <br/>KATY, TX 77494</p>-->
+                      
+                    <!--</p>-->
                 </div>
             </div>
         </section>
@@ -267,12 +283,18 @@
 
     <!-- JavaScript -->
     <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.lazyload.js"></script>
     <script>
+    $(function() {
+        $('.carousel').carousel({
+            interval: 5000
+        });
+    
+        $("img.lazy").lazyload({effect : "fadeIn", threshold : 200, skip_invisible : false});
+    });
     // Activates the Carousel
-    $('.carousel').carousel({
-        interval: 5000
-    })
+    
     </script>
 
 </body>

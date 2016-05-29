@@ -10,7 +10,8 @@
     <title>CTG, INC. - Contact</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 
     <!-- Add custom CSS here -->
     <link href="css/base.css" rel="stylesheet">
@@ -62,8 +63,6 @@
     <div class="container page-content-section">
         <div class="row">
             <div class="col-lg-12">
-                <p id="message" class="alert">
-                </p>
                 <form role="form" id="formContactUs">
                     <div class="row">
                         <div class="form-group col-lg-4">
@@ -83,9 +82,11 @@
                             <label>Message</label>
                             <textarea id="contact_message" name="contact_message" class="form-control" rows="6"></textarea>
                         </div>
-                        <div class="form-group col-lg-12">
+                        <div class="form-group col-lg-4">
                             <input type="hidden" name="save" value="contact">
                             <button id="btnSubmit" type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                        <div id="message" class="alert col-lg-8">
                         </div>
                     </div>
                 </form>
@@ -98,12 +99,38 @@
                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3463.1082182781047!2d-95.78465068518754!3d29.774512181981247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864126dd2c660f0f%3A0xe72845aa4344a036!2s400+Cobia+Dr%2C+Katy%2C+TX+77494!5e0!3m2!1sen!2sus!4v1464485130926" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
                 <div class="col-md-4">
-                    <p>Phone: <strong>713.906.6177</strong>
-                    </p>
-                    <p>Email: <strong>info@texasctgroup.com</strong>
-                    </p>
-                    <p>Address: <strong><br>Catalyst Technical Group, INC.<br>400 Cobia Dr, <br>Suite 1503<br>Katy, TX 77494</strong>
-                    </p>
+                    <table class="contact-details">
+                     <tbody>
+                         <tr>
+                             <td class="icon"><i class="fa fa-phone fa-2x" aria-hidden="true"></i></td>
+                             <td>713-903-6177</td>
+                         </tr>
+                     </tbody>
+                    </table>
+                    <table class="contact-details">
+                     <tbody>
+                         <tr>
+                             <td class="icon"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></td>
+                             <td>info@texasctgroup.com</td>
+                         </tr>
+                     </tbody>
+                    </table>
+                    <table class="contact-details">
+                     <tbody>
+                         <tr>
+                             <td class="icon"><i class="fa fa-clock-o fa-2x" aria-hidden="true"></i></td>
+                             <td>9:00 AM - 5:00 PM CST (M - F)</td>
+                         </tr>
+                     </tbody>
+                    </table>
+                    <table class="contact-details">
+                     <tbody>
+                         <tr>
+                             <td class="icon"><i class="fa fa-location-arrow fa-2x" aria-hidden="true"></i></td>
+                             <td>400 COBIA DR, SUITE 1503 <br/>KATY, TX 77494</td>
+                         </tr>
+                     </tbody>
+                    </table>
                 </div>
                 <div class="clearfix"></div>
             </div>

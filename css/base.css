@@ -1,18 +1,19 @@
 body {
-  background-color: #EEEEEE;
+  background-color: #5a5551;
   letter-spacing: 0.5px;
+  color: #FFFFFF;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  text-transform: capitalize;
+  text-transform: uppercase;
   letter-spacing: 3px;
   font-weight: 400;
+  margin-bottom: 0;
 }
 
 p {
   font-size: 1.2em;
   line-height: 1.4;
-  color: #000;
 }
 
 ul {
@@ -27,6 +28,7 @@ ul {
 .navbar-default {
     background: #2E2926;
     color: #FFFFFF;
+    border: none;
 }
 
 .navbar-default .navbar-brand {
@@ -52,7 +54,7 @@ ul {
 }
 
 .navbar-nav {
-  text-transform: capitalize;
+  text-transform: uppercase;
   letter-spacing: 3px;
   font-weight: 400;
 }
@@ -105,30 +107,6 @@ ul {
   background-position:center center;
 }
 
-.tab-box-civil {
-  background-image: url("../img/civil.jpg");
-}
-
-.tab-box-architecture {
-  background-image: url("../img/architecture.jpg");
-}
-
-.tab-box-mep {
-  background-image: url("../img/mep.jpg");
-}
-
-.tab-box-permit {
-  background-image: url("../img/permit.jpg");
-}
-
-.tab-box-plat {
-  background-image: url("../img/plat.jpg");
-}
-
-.tab-box-structural {
-  background-image: url("../img/structural.jpg");
-}
-
 .intro-text {
   text-transform: capitalize;
   letter-spacing: 1px;
@@ -176,7 +154,7 @@ footer p {
 }
 
 .services-content h2 {
-  padding: 20px 10px 10px 10px;
+  padding: 20px 10px 20px 10px;
 }
 
 .service-content-text {
@@ -187,18 +165,16 @@ footer p {
   border-color: #888888;
 }
 
-.tab-link {
-  text-decoration: none;
-  color: #2E2926;
+.service-item {
   padding: 20px 20px 20px 20px;
   display: block;
+  background-color: #2f2926;
+  margin: 20px 10px;
+  color: #ffffff;
 }
 
-.tab-link:focus,
-.tab-link:hover {
-  text-decoration: none;
-  background-color: #e4e3e0;
-  color: #2E2926;
+.sevice-item:hover {
+  opacity: 0.75;
 }
 
 .logo-wrapper {
@@ -224,7 +200,7 @@ footer p {
 } 
 
 footer {
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid #FE8C1A;
 }
 
 .banner img {
@@ -237,7 +213,8 @@ footer {
 }
 
 .margin-bottom-60 {
-  padding-bottom: 60px;
+  padding-bottom: 40px;
+  padding-top: 40px;
 }
 
 .services section {
@@ -248,15 +225,6 @@ footer {
   max-height: 150px;
 }
 
-.services h4 {
-  text-align: center;
-}
-
-.section-headings {
-  text-align: center;
-  padding: 10px 0 40px 0;
-}
-
 section.additional-info {
   background: #fff;
   padding: 40px 30px 45px 30px;
@@ -264,10 +232,63 @@ section.additional-info {
   margin: 0 0 10% 0;
 }
 
-hr.seperator {
-    height: 4px;
-    background-color: #FE8C1A;
-    width: 30%;
+
+.panel-heading,
+.panel-footer {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+.panel-footer a{
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+  height: 100%;
+  width: 100%;
+  color: #FFFFFF;
+}
+
+.panel-footer a:focus,
+.panel-footer a:hover {
+  text-decoration: none;
+  color: #FE8C1A;
+}
+
+.panel,
+.panel-default > .panel-heading,
+.panel-body,
+.panel-footer {
+  background-color: #2e2926;
+  border-color: #2e2926;
+  color: #ffffff;
+}
+
+.panel-body p {
+  color: #FFFFFF;
+}
+
+.panel-footer {
+  border-top-color: #323332;
+  border-width: 2px;
+}
+
+.section-headings {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.contact-information {
+  padding-top: 20px;
+}
+
+.services-content section {
+  padding-bottom: 40px;
+}
+
+.resources-info .fa {
+  color: #FE8C1A;
 }
 
 @media screen and (min-width: 768px) {
@@ -277,7 +298,7 @@ hr.seperator {
     }
     
     .brand {
-      display: inherit;
+      display: inline-block;
       font-weight: 700;
       font-size: 2em;
       line-height: normal;
@@ -370,13 +391,11 @@ hr.seperator {
     
     .logo-wrapper {
       float: left;
-      background-color: #EEEEEE;
-      font-size: 0;
       display: block;
     }
     
     .logo-link {
-      display: block;
+      display: inline-block;
     }
     
     .navigation-wrapper {
@@ -391,16 +410,11 @@ hr.seperator {
     
     .navbar-collapse {
       padding-left: 0;
-      float: right;
     }
 
 }
 
 @media screen and (min-width: 1200px) {
-    .container {
-      width: 95%;
-    }
-    
     .box:after {
         content: '';
         display: table;
@@ -408,6 +422,7 @@ hr.seperator {
     }
     .brand {
         font-size: 2.45em;
+        display: inline-block;
     }
     .nav>li>a {
       padding: 9px 15px;

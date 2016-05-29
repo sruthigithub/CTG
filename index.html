@@ -11,6 +11,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 
     <!-- Add custom CSS here -->
     <link href="css/base.css" rel="stylesheet">
@@ -18,44 +19,46 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-default" role="navigation">
+    <header class="header-wrapper">
         <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html">CTG, INC.</a>
-            </div><div class="header-wrapper">
-                <div class="logo-wrapper">
-                    <a class="logo-link" href="index.html">
-                        <img src="img/logo.png" class="logo"></img>
-                    </a>
-                </div>
-                <div class="navigation-wrapper">
-                    <div class="brand">
-                        <span>Catalyst Technical Group, INC.</span>
-                    </div>
-                    <div class="collapse navbar-collapse navbar-ex1-collapse">
-                        <ul class="nav navbar-nav">
-                            <li><a href="index.html" class="active">Home</a>
-                            </li>
-                            <li><a href="projects.html">Projects</a>
-                            </li>
-                            <li><a href="services.html">Services</a>
-                            </li>
-                            <li><a href="resources.html">Resources</a>
-                            </li>
-                            <li><a href="contact.html">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
+            <div class="logo-wrapper">
+                <a class="logo-link" href="index.html">
+                    <img src="img/logo.png" class="logo"></img>
+                </a>
+                <div class="brand">
+                    <span>Catalyst Technical Group, INC.</span>
                 </div>
             </div>
         </div>
-    </nav>
+        
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">CTG, INC.</a>
+                </div>
+                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html" class="active">Home</a>
+                        </li>
+                        <li><a href="projects.html">Projects</a>
+                        </li>
+                        <li><a href="services.html">Services</a>
+                        </li>
+                        <li><a href="resources.html">Resources</a>
+                        </li>
+                        <li><a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
 
     <div class="container page-content-section">
         <div class="row banner margin-bottom-60">
@@ -65,84 +68,187 @@
                 </div>
             </div>
             <div class="col-md-6">
-                We are one stop shop for Planning & Design, Architecture, Civil, MEP, Structural Engineering and Construction Administration.
+                We are a full service design firm for Planning & Design, Architecture, Civil, MEP, Structural Engineering and Construction Administration.
             </div>
         </div>
-        <hr class="seperator"/>
+
         <section class="margin-bottom-60">
-            <h2 class="section-headings">Services We Offer</h2>
             <div class="row services">
                 <div class="col-md-4">
-                    <a class="tab-link" href="./services.html#civil">
+                    <div class="panel panel-default">
+                      <div class="panel-heading"><h4>Civil Engineering</h4></div>
+                      <div class="panel-body">
                         <div class="img-stripe-border">
                             <img class="img-responsive" src="img/civil.jpg" alt="">
                         </div>
-                        <h4>Civil Engineering</h4>
-                    </a>
+                        <ul class="list-unstyled">
+                            <li>Site Planning & Design</li>
+                            <li>Master Plan Development</li>
+                            <li>Storm Drainage</li>
+                            <li>Storm Water Management</li>
+                            <li>Utility Design</li>
+                        </ul>
+                      </div>
+                      <div class="panel-footer">
+                        <a class="tab-link" href="./services.html#civil">
+                            Learn More <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                        </a>
+                      </div>
+                    </div>
                 </div>
                 <div class="col-md-4">
-                    <a class="tab-link" href="./services.html#structural">
+                    <div class="panel panel-default">
+                      <div class="panel-heading"><h4>Architecture</h4></div>
+                      <div class="panel-body">
                         <div class="img-stripe-border">
-                            <img class="img-responsive" src="img/structural.jpg" alt="">
+                            <img class="img-responsive" src="img/architecture.jpg" alt="">
                         </div>
-                        <h4>Structural</h4>
-                    </a>
+                        <ul class="list-unstyled">
+                            <li>Site Planning & Design</li>
+                            <li>Master Plan Development</li>
+                            <li>Storm Drainage</li>
+                            <li>Storm Water Management</li>
+                            <li>Utility Design</li>
+                        </ul>
+                      </div>
+                      <div class="panel-footer">
+                        <a class="tab-link" href="./services.html#architectural">
+                            Learn More <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                        </a>
+                      </div>
+                    </div>
                 </div>
                 <div class="col-md-4">
-                    <a class="tab-link" href="./services.html#mep">
+                    <div class="panel panel-default">
+                      <div class="panel-heading"><h4>Platting</h4></div>
+                      <div class="panel-body">
                         <div class="img-stripe-border">
-                            <img class="img-responsive" src="img/mep.jpg" alt="">
+                            <img class="img-responsive" src="img/plat.jpg" alt="">
                         </div>
-                        <h4>MEP</h4>
-                    </a>
+                        <ul class="list-unstyled">
+                            <li>Site Planning & Design</li>
+                            <li>Master Plan Development</li>
+                            <li>Storm Drainage</li>
+                            <li>Storm Water Management</li>
+                            <li>Utility Design</li>
+                        </ul>
+                      </div>
+                      <div class="panel-footer">
+                        <a class="tab-link" href="./services.html#platting">
+                            Learn More <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                        </a>
+                      </div>
+                    </div>
                 </div>
             </div>
             
             <div class="row services">
                 <div class="col-md-4">
-                    <a class="tab-link" href="./services.html#architectural">
+                    <div class="panel panel-default">
+                      <div class="panel-heading"><h4>MEP</h4></div>
+                      <div class="panel-body">
                         <div class="img-stripe-border">
-                            <img class="img-responsive" src="img/architecture.jpg" alt="">
+                            <img class="img-responsive" src="img/mep.jpg" alt="">
                         </div>
-                        <h4>Architectural</h4>
-                    </a>
+                        <ul class="list-unstyled">
+                            <li>Site Planning & Design</li>
+                            <li>Master Plan Development</li>
+                            <li>Storm Drainage</li>
+                            <li>Storm Water Management</li>
+                            <li>Utility Design</li>
+                        </ul>
+                      </div>
+                      <div class="panel-footer">
+                        <a class="tab-link" href="./services.html#mep">
+                            Learn More <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                        </a>
+                      </div>
+                    </div>
                 </div>
                 <div class="col-md-4">
-                    <a class="tab-link" href="./services.html#permit">
+                    <div class="panel panel-default">
+                      <div class="panel-heading"><h4>Structural</h4></div>
+                      <div class="panel-body">
+                        <div class="img-stripe-border">
+                            <img class="img-responsive" src="img/structural.jpg" alt="">
+                        </div>
+                        <ul class="list-unstyled">
+                            <li>Foundation Design</li>
+                            <li>Concrete, Steel & Timber Design</li>
+                            <li>Expert Review & Analysis</li>
+                            <li>Building Inspections</li>
+                            <li>Building Information Modeling</li>
+                        </ul>
+                      </div>
+                      <div class="panel-footer">
+                        <a class="tab-link" href="./services.html#structural">
+                            Learn More <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                        </a>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="panel panel-default">
+                      <div class="panel-heading"><h4>Permit Co-ordination</h4></div>
+                      <div class="panel-body">
                         <div class="img-stripe-border">
                             <img class="img-responsive" src="img/permit.jpg" alt="">
                         </div>
-                        <h4>Permit Co-ordination</h4>
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <a class="tab-link" href="./services.html#platting">
-                        <div class="img-stripe-border">
-                            <img class="img-responsive" src="img/plat.jpg" alt="">
-                        </div>
-                        <h4>Platting</h4>
-                    </a>
+                        <ul class="list-unstyled">
+                            <li>Site Planning & Design</li>
+                            <li>Master Plan Development</li>
+                            <li>Storm Drainage</li>
+                            <li>Storm Water Management</li>
+                            <li>Utility Design</li>
+                        </ul>
+                      </div>
+                      <div class="panel-footer">
+                        <a class="tab-link" href="./services.html#permit">
+                            Learn More <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                        </a>
+                      </div>
+                    </div>
                 </div>
             </div>
         </section>
-        <hr class="seperator"/>
+
         <section class="margin-bottom-60">
-            <h2 class="section-headings">Know More About CTG</h2>
             <div class="row">
-                <div class="col-md-4">
-                    <section class="additional-info">
-                        <h4>Who We Are</h4>
-                    </section>
+                <div class="col-md-9">
+                    <div class="panel panel-default">
+                      <div class="panel-heading"><h4>Who We Are</h4></div>
+                      <div class="panel-body">
+                          <p>
+                              Catalyst Technical Group is a ONE STOP SHOP for Project Planning, Permitting & Approvals from Concept to Completion. CTG offers many advantages in the execution of work on your project, offering expertise in Planning, Urban Design, Parks & Recreation Planning & Design, Landscape Architecture, Engineering and Construction Administration under one roof. 
+                          </p>
+                          <p> 
+                              We provide the client with a knowledge-based company to complete a project in a functional and creative manner. We focus on solid design and sound planning with the needs and desires of our clients as our main priority.
+                              CTG provides the industry experience, commitment and proven results your project needs to help see it through completion. As a multi-disciplined construction engineering consulting firm, we provide the innovative solutions and support you need to deliver your project on time and within budget. 
+                          </p>
+
+                          <p>
+                              With a history of providing professional engineering and planning services, CTG continues its focus and dedication to provide high quality infrastructure design services for its clients. We have an established reputation for technically excellent, highly responsive, team-oriented engineering services. Maintaining a focus on the goals of our clients has allowed us to be recognized as dedicated and valued members of the project design team.
+                          </p>
+                      </div>
+                    </div>
                 </div>
-                <div class="col-md-4">
-                    <section class="additional-info">
-                        <h4>Latest Projects</h4>
-                    </section>
-                </div>
-                <div class="col-md-4">
-                    <section class="additional-info">
-                        <h4>Why Work with CTG</h4>
-                    </section>
+                <div class="col-md-3">
+                    <div class="panel panel-default">
+                      <div class="panel-heading"><h4>Contact</h4></div>
+                      <div class="panel-body">
+                          <p>Primary Contact</p>
+                          <p>Madhavi Talluri, P.E.<br/>
+                             Principal
+                          </p>
+                          <p class="contact-information">
+                              <p class="phone"><i class="fa fa-phone" aria-hidden="true"></i> 713-903-6177</p>
+                              <p class="email"><i class="fa fa-envelope" aria-hidden="true"></i> info@texasctgroup.com</p>
+                              <p class="office-hours"><i class="fa fa-clock-o" aria-hidden="true"></i> 9:00 AM - 5:00 PM CST (M - F)</p> <br/>
+                              <p class="address"><i class="fa fa-location-arrow" aria-hidden="true"></i> Address <br/>400 COBIA DR, SUITE 1503 <br/>KATY, TX 77494</p>
+                              
+                          </p>
+                      </div>
+                    </div>
                 </div>
             </div>
         </section>

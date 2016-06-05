@@ -1,4 +1,3 @@
+Sitemap: http://www.ctg.com/sitemap.xml
 User-agent: *
 Disallow:
-Disallow: /cgi-bin/
-Disallow: /tmp/

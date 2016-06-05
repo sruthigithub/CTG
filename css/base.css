@@ -1,7 +1,8 @@
 body {
   background-color: #5a5551;
   letter-spacing: 0.5px;
-  color: #FFFFFF;
+  color: #c3bcb7;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -9,6 +10,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 3px;
   font-weight: 400;
   margin-bottom: 0;
+  color: #e7e4e2;
 }
 
 p {
@@ -27,7 +29,7 @@ ul {
 
 .navbar-default {
     background: #2E2926;
-    color: #FFFFFF;
+    color: #e7e4e2;
     border: none;
 }
 
@@ -43,7 +45,7 @@ ul {
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: #FFFFFF;
+    color: #e7e4e2;
 }
 
 .navbar-default .navbar-nav > li > a:hover, 
@@ -64,7 +66,6 @@ ul {
 }
 
 .brand-name {
-  font-weight: 700;
   font-size: 1.5em;
   text-transform: capitalize;
   letter-spacing: normal;
@@ -117,7 +118,7 @@ ul {
 footer p {
   margin: 0;
   padding: 20px 0;
-  color: #999999;
+  color: #c3bcb7;
   font-weight: normal;
   font-size: 15px;
   letter-spacing: 2px;
@@ -157,7 +158,6 @@ footer p {
   display: block;
   background-color: #2f2926;
   margin: 20px 10px;
-  color: #ffffff;
 }
 
 .sevice-item:hover {
@@ -175,7 +175,7 @@ footer p {
 
 .img-stripe-border {
   display: block;
-  background: #fff url("../img/stripe.png");
+  background: #e7e4e2 url("../img/stripe.png");
   padding: 10px;
   box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.15);
   margin: 0 0 1.5em 0;
@@ -197,7 +197,7 @@ footer {
 }
 
 section.additional-info {
-  background: #fff;
+  background: #e7e4e2;
   padding: 40px 30px 45px 30px;
   box-shadow: 2px 2px 2px 1px rgba(128, 128, 128, 0.1);
   margin: 0 0 10% 0;
@@ -209,7 +209,7 @@ section.additional-info {
   text-transform: uppercase;
   letter-spacing: 3px;
   font-weight: 400;
-  color: #FFFFFF;
+  color: #e7e4e2;
 }
 
 .panel-footer a{
@@ -218,7 +218,7 @@ section.additional-info {
   display: block;
   height: 100%;
   width: 100%;
-  color: #FFFFFF;
+  color: #c3bcb7;
 }
 
 .panel-footer a:focus,
@@ -243,17 +243,12 @@ section.additional-info {
 .contact-details {
   background-color: #2e2926;
   border-color: #2e2926;
-  color: #ffffff;
   border-radius: 0;
 }
 
-.panel-body p {
-  color: #FFFFFF;
-}
-
 .panel-footer {
-  border-top-color: #323332;
-  border-width: 2px;
+  border-top-color: #c3bcb7;
+  border-width: 1px;
 }
 
 .panel-default > .panel-heading {
@@ -320,6 +315,20 @@ section.additional-info {
   width: 66px;
 }
 
+.header-contact a,
+.header-contact a:hover,
+.header-contact a:focus {
+  color: #e7e4e2;
+  text-decoration: none;
+}
+
+.contact-details a,
+.contact-details a:hover,
+.contact-details a:focus {
+  color: #c3bcb7;
+  text-decoration: none;
+}
+
 .navbar-default .navbar-brand {
   color: #FE8C1A;
 }
@@ -339,6 +348,25 @@ section.additional-info {
     background-color: transparent;
 }
 
+.header-contact {
+    font-size: 20px;
+    display: block;
+    float: right;
+    vertical-align: middle;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    color: #e7e4e2;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-style: italic;
+}
+
+.header-contact .fa {
+  color: #FE8C1A;
+  padding: 0 5px 0 5px;
+}
+
 @media screen and (min-width: 768px) {
 
     .brand-wrapper {
@@ -347,14 +375,14 @@ section.additional-info {
     
     .brand {
       display: inline-block;
-      font-weight: 700;
       font-size: 2em;
       line-height: normal;
       text-align: left;
       margin: 0;
       padding: 10px 0 10px 10px;
-      color: #fff;
+      color: #e7e4e2;
       text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+      vertical-align: middle;
     }
     
     .brand a,
@@ -384,7 +412,7 @@ section.additional-info {
       text-transform: capitalize;
       letter-spacing: 3px;
       font-weight: 400;
-      color: #fff;
+      color: #e7e4e2;
       text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     }
     
@@ -403,16 +431,17 @@ section.additional-info {
     .navbar-default {
       background: #2E2926;
       border: none;
+      padding:10px 0 10px 0;
     }
     
     .nav>li>a {
       padding: 9px 15px;
-      color: #ffffff;
+      color: #e7e4e2;
     }
     
     .navbar-nav>li>a {
       line-height: normal;
-      color: #ffffff;
+      color: #e7e4e2;
     }
     
     .navbar-nav {
@@ -440,6 +469,8 @@ section.additional-info {
     .logo-wrapper {
       float: left;
       display: block;
+      width: 100%;
+      position: relative;
     }
     
     .logo-link {
@@ -471,15 +502,18 @@ section.additional-info {
     .brand {
         font-size: 2.45em;
         display: inline-block;
+        vertical-align: middle;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     }
+    
     .nav>li>a {
       padding: 9px 15px;
-      color: #ffffff;
+      color: #e7e4e2;
     }
     
     .navbar-nav>li>a {
       line-height: normal;
-      color: #ffffff;
+      color: #e7e4e2;
     }
     
     .navbar-nav {
